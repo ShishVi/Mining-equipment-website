@@ -1,0 +1,56 @@
+.App {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1920px;
+}
+.Header_app {
+    grid-template-columns: 370px 190px 6fr 2fr;
+    display: grid;
+    width: 1920px;
+    height: 46px;
+    left: 0px;
+    top: 0px;
+    background: #18154B;
+    color: #F0F5FB;
+}
+
+.Mail_header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.text_mail_header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 10px;
+}
+.icon_mail_header img {
+    width: 15px;
+    height: 15px;
+    color: #F0F5FB;
+}
+.Phone_header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.text_phone_header {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 10px;
+}
+.icon_phone_header img {
+    width: 15px;
+    height: 15px;
+    color: #F0F5FB;
+}

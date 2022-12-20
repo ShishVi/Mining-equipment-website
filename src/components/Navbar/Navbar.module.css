@@ -1,0 +1,95 @@
+.navbar_main {
+    grid-template-columns: 370px 190px 190px 80px 126px 102px 155px 160px 394px;
+    display: grid;
+    width: 1920px;
+    height: 70px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 5px 9px -5px rgba(34, 60, 80, 0.27);
+    -moz-box-shadow: 1px 5px 9px -5px rgba(34, 60, 80, 0.27);
+    box-shadow: 1px 5px 9px -5px rgba(34, 60, 80, 0.27);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.logo a {
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.catalog {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.catalog select {
+    border-style: none;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #303239;
+    width: 150px;
+
+}
+
+.navbar_button {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.navbar_button button{
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(73.56deg, #0D748B -10.13%, #1A0B73 75.49%), #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: #FFFFFF;
+
+}
+
+.navbar_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_navbar_item {
+    width: 40px;
+    height: 40px;
+    background: #F0F5FB;
+    border-radius: 30px;
+    margin: 5px;
+
+}
+
+.icon_navbar_item img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}

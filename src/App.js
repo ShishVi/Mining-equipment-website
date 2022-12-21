@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import  Header from '../src/components/Header/Header';
 import Navbar from "./components/Navbar/Navbar";
+import CardProduct from "./components/CardProduct/CardProduct";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
         <Header />
         <Navbar />
+        <CardProduct />
     </div>
   );
 }

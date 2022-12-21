@@ -2,6 +2,7 @@ import React from "react";
 import card from './CardProduct.module.css';
 import card_fon from './image_card_fon.png';
 import product from './image_product.png';
+import BestOffer from "../BestOffer/BestOffer";
 
 function CardProduct() {
   return (
@@ -23,7 +24,7 @@ function CardProduct() {
 
               </div>
           </div>
-
+          <BestOffer />
       </section>
   );
 }

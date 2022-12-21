@@ -1,7 +1,10 @@
 .cards_wrapper {
-    height: 712px;
-    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1177px;
     padding-left: 373px;
+    margin-top: 40px;
 
 }
 
@@ -92,7 +95,7 @@
     justify-content: space-between;
     position: absolute;
     left: 671px;
-    bottom: 22px;
+    bottom: 30px;
     width: 80px;
     height: 20px;
 }

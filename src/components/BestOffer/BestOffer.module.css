@@ -1,0 +1,188 @@
+.cards_wrapper {
+
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    width: 380px;
+    background: linear-gradient(0deg, #1A0B73, #1A0B73), radial-gradient(106.32% 141.75% at -6.32% -2.5%, #42E8E0 0%, #40DDDA 0%, #3AAEC0 9.21%, #3484A9 17.3%, #2F6195 25.73%, #2B4486 34.58%, #282E79 44%, #261E71 54.25%, #24156C 65.94%, #24126A 82.26%);
+    border-radius: 10px;
+    position:relative;
+    overflow:hidden;
+}
+
+.image_product {
+    position: absolute;
+    width: 216px;
+    height: 200px;
+    left: 8px;
+    top: 217px;
+
+}
+.card h2 {
+    position: absolute;
+    width: 231px;
+    height: 76px;
+    left: 40px;
+    top: 40px;
+    margin: 0;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card span {
+    position: absolute;
+    left: 60px;
+    top: 256px;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.card_button button {
+    position: absolute;
+    left: 60px;
+    top: 311px;
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #18154B;
+    cursor: pointer;
+}
+
+.ellipse {
+    position: absolute;
+    width: 596px;
+    height: 563px;
+    left: 508px;
+    top: -55px;
+    background-color: rgba(52, 110, 164, 0.2);
+    border-radius: 50%;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 671px;
+    bottom: 22px;
+    width: 80px;
+    height: 20px;
+}
+.carousel .active {
+    width: 12px;
+    height: 12px;
+    background: #38B0C1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+.carousel div {
+    width: 10px;
+    height: 10px;
+    background: rgba(56, 176, 193, 0.4);
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border-radius: 50%;
+}
+.text {
+    position: absolute;
+    top: 142px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.text div:first-child {
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.text div:last-child {
+    width: 138px;
+    height: 46px;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.button a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.button a div:first-child {
+    width: 77px;
+    height: 22px;
+    left: 233px;
+    top: 388px;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.button a div:last-child {
+    position: absolute;
+    width: 30px;
+    left: 320px;
+    top: 388px;
+}
+
+.ellipse_bottom {
+    position: absolute;
+    width: 365px;
+    height: 365px;
+    left: 233px;
+    top: 322px;
+    background: #3BB9C6;
+    filter: blur(73px);
+    border-radius: 50%;
+}
+
+.ellipse_top {
+    position: absolute;
+    width: 365px;
+    height: 365px;
+    left: -232px;
+    top: -223px;
+    background: #3BB9C6;
+    filter: blur(73px);
+    border-radius: 50%;
+}

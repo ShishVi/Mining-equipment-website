@@ -4,6 +4,7 @@ import NavbarLink from "./NavbarLink/NavbarLink";
 import loupe from "./loupe.png";
 import heart from './heart.svg';
 import backet_shop from './basket_shopping.svg'
+import IconCount from "./IconCount/IconCount";
 
 
 
@@ -36,10 +37,16 @@ function Navbar() {
                   <a href='#'><img src={loupe} alt='foto_loupe'/></a>
               </div>
               <div className={navbar.icon_navbar_item}>
-                  <a href='#'><img src={heart} alt='foto_loupe'/></a>
+                  <a href='#'>
+                      <img src={heart} alt='foto_loupe'/>
+                      <IconCount count = '6'/>
+                  </a>
               </div>
               <div className={navbar.icon_navbar_item}>
-                  <a href='#'><img src={backet_shop} alt='foto_loupe'/></a>
+                  <a href='#'>
+                      <img src={backet_shop} alt='foto_loupe'/>
+                      <IconCount count = '3'/>
+                  </a>
               </div>
           </div>
       </nav>

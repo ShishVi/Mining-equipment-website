@@ -92,4 +92,9 @@
     position: relative;
     top: 10px;
     left: 10px;
+
 }
+.icon_navbar_item a {
+    text-decoration: none;
+}
+

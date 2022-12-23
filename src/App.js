@@ -4,6 +4,7 @@ import  Header from '../src/components/Header/Header';
 import Navbar from "./components/Navbar/Navbar";
 import CardProduct from "./components/CardProduct/CardProduct";
 import CatalogProducts from "./components/CatalogProducts/CatalogProducts";
+import Advantages from "./components/Advantages/Advantages";
 
 
 
@@ -14,7 +15,8 @@ function App(props) {
         <Header />
         <Navbar />
         <CardProduct />
-        <CatalogProducts products={props.products} />
+        <CatalogProducts products={props.state.products} />
+        <Advantages advantages={props.state.advantages}/>
     </div>
   );
 }

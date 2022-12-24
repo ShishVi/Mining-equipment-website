@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import CardProduct from "./components/CardProduct/CardProduct";
 import CatalogProducts from "./components/CatalogProducts/CatalogProducts";
 import Advantages from "./components/Advantages/Advantages";
+import Bestsellers from "./components/Вestsellers/Bestsellers";
 
 
 
@@ -17,6 +18,7 @@ function App(props) {
         <CardProduct />
         <CatalogProducts products={props.state.products} />
         <Advantages advantages={props.state.advantages}/>
+        <Bestsellers />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import bestsellers from './Bestsellers.module.css';
 import ellipse from './Ellipse.svg'
+import ItemBestsellers from './ItemBestsellers/ItemBestsellers'
+
 
 
 function Bestsellers() {
@@ -10,11 +12,11 @@ function Bestsellers() {
               <h2>хиты продаж</h2>
           </div>
           <div className={bestsellers.items}>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
+              <ItemBestsellers />
+              <ItemBestsellers />
+              <ItemBestsellers />
+              <ItemBestsellers />
+              <ItemBestsellers />
           </div>
           <div className= {bestsellers.pagination_grid}>
               <div className= {bestsellers.pagination}>

@@ -1,29 +1,32 @@
 import React from "react";
 import itembestsellers from './ItemBestsellers.module.css';
 
-function ItemBestsellers() {
+function ItemBestsellers(props) {
   return (
       <div className={itembestsellers.item}>
           <div className={itembestsellers.item_header}>
-              <div><span>ХИТ</span></div>
+              <div><span>{props.promotion}</span></div>
               <div>
-                  <img src='./BestSellers/empty_heart.svg' />
+                  <img src={props.heart_logo} />
               </div>
           </div>
           <figure>
-              <p><img src='./BestSellers/image_1.svg'  alt='foto_1'/></p>
-              <figcaption>Antminer L7 8800 Mh/s</figcaption>
+              <p><img src={props.foto_product}  alt='foto_1'/></p>
+              <figcaption>{props.name}</figcaption>
           </figure>
           <div>
               <div className={itembestsellers.ellips}></div>
-              <div>В наличии</div>
+              <div>{props.availability}</div>
           </div>
           <div className={itembestsellers.price_item}>
               <div className={itembestsellers.price}>
-                  615 000 ₽
+                  {props.price}
+              </div>
+              <div className={itembestsellers.old_price}>
+                  <s><span>{props.old_price}</span></s>
               </div>
               <div className={itembestsellers.cart}>
-                  <img src='./BestSellers/cart.svg'/>
+                  <img src={props.cart}/>
               </div>
           </div>
           <div className={itembestsellers.card_button}>

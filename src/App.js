@@ -18,7 +18,7 @@ function App(props) {
         <CardProduct />
         <CatalogProducts products={props.state.products} />
         <Advantages advantages={props.state.advantages}/>
-        <Bestsellers />
+        <Bestsellers itemBestseller ={props.state.itemBestsellers} />
     </div>
   );
 }

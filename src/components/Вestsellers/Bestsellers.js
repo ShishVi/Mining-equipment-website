@@ -5,18 +5,17 @@ import ItemBestsellers from './ItemBestsellers/ItemBestsellers'
 
 
 
-function Bestsellers() {
+function Bestsellers(props) {
+    let itemBestseller = props.itemBestseller.map(item => <ItemBestsellers name={item.name} promotion={item.promotion}
+                         foto_product={item.foto_product} price={item.price} old_price={item.old_price}
+                         cart ={item.cart} heart_logo={item.heart_logo} availability={item.availability} id={item.id}/>);
   return (
       <section className={bestsellers.wrapper}>
           <div className={bestsellers.header_text}>
               <h2>хиты продаж</h2>
           </div>
           <div className={bestsellers.items}>
-              <ItemBestsellers />
-              <ItemBestsellers />
-              <ItemBestsellers />
-              <ItemBestsellers />
-              <ItemBestsellers />
+              {itemBestseller}
           </div>
           <div className= {bestsellers.pagination_grid}>
               <div className= {bestsellers.pagination}>

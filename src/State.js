@@ -1,4 +1,4 @@
-import React from "react";
+
 let state = {
     products: [
         {name: 'Asic miners оптом', foto: './ItemProducts/image_1.png', id: '1'},
@@ -74,7 +74,14 @@ let state = {
             availability: 'Под заказ',
             id: '5',
         }
-
+    ],
+    serviceItem: [
+        {name: 'Работаем без выходных – 7 дней в неделю', foto: './About/service_item_1.svg', id: '1'},
+        {name: 'Прямое сотрудничество с поставщиками', foto: './About/service_item_2.svg', id: '2'},
+        {name: 'Быстрая авиадоставка от 14 дней', foto: './About/service_item_3.svg', id: '3'},
+        {name: 'Предоплата за предзаказ от 30%', foto: './About/service_item_4.svg', id: '4'},
+        {name: 'Официальный договор, полная защита средств', foto: './About/service_item_5.svg', id: '5'},
+        {name: 'Видеопроверка для удаленных клиентов', foto: './About/service_item_6.svg', id: '6'},
     ],
 }
 

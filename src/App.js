@@ -6,6 +6,7 @@ import CardProduct from "./components/CardProduct/CardProduct";
 import CatalogProducts from "./components/CatalogProducts/CatalogProducts";
 import Advantages from "./components/Advantages/Advantages";
 import Bestsellers from "./components/Вestsellers/Bestsellers";
+import About from "./components/About/About";
 
 
 
@@ -19,6 +20,7 @@ function App(props) {
         <CatalogProducts products={props.state.products} />
         <Advantages advantages={props.state.advantages}/>
         <Bestsellers itemBestseller ={props.state.itemBestsellers} />
+        <About serviceItem={props.state.serviceItem}/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import advantages from './Advantages.module.css';
 import ItemElement from "./ItemProducts/ItemElement/ItemElement";
-import bestoffer from "../BestOffer/BestOffer.module.css";
+
 
 function Advantages(props) {
   return (

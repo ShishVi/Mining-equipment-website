@@ -1,0 +1,71 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+    height: 365px;
+    margin-left: 373px;
+    margin-top: 80px;
+    overflow:hidden;
+}
+.contacts {
+    width: 285px;
+
+}
+.contacts h2 {
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #18154B;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.contacts ul {
+    list-style-type: none;
+    font-family: 'Nunito Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    color: #303239;
+    padding: 1px;
+}
+
+.contacts ul>li {
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+.contacts ul>li:nth-child(1) {
+    background: url("geo.svg") no-repeat 0 5px;
+}
+.contacts ul>li:nth-child(2) {
+    background: url("metro.svg") no-repeat 0 5px;
+}
+.contacts ul>li:nth-child(3) {
+    background: url("email.svg") no-repeat 0 5px;
+}
+.contacts ul>li:nth-child(4) {
+    background: url("phone.svg") no-repeat 0 5px;
+}
+.contacts ul>li:nth-child(5) {
+    background: url("time.svg") no-repeat 0 5px;
+}
+.icon_image {
+    margin-top: 37px;
+
+}
+
+.icon_image img {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.map {
+
+}
+

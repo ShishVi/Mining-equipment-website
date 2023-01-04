@@ -8,6 +8,7 @@ import Advantages from "./components/Advantages/Advantages";
 import Bestsellers from "./components/Вestsellers/Bestsellers";
 import About from "./components/About/About";
 import RequestForm from "./components/RequestForm/RequestForm";
+import Contacts from "./components/Contacts/Contacts";
 
 
 
@@ -23,6 +24,7 @@ function App(props) {
         <Bestsellers itemBestseller ={props.state.itemBestsellers} />
         <About serviceItem={props.state.serviceItem}/>
         <RequestForm />
+        <Contacts />
     </div>
   );
 }

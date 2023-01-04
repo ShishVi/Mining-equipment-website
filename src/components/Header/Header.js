@@ -22,8 +22,8 @@ function Header() {
           </div>
           <div className={header.Social_icon}>
               <div className={header.icon}>
-                  <img src={telegramm} alt='foto_logo_mail'/>
-                  <img src={whats} alt='foto_logo_mail'/>
+                  <a href='/'><img src={telegramm} alt='foto_logo_mail'/></a>
+                  <a href='/'><img src={whats} alt='foto_logo_mail'/></a>
               </div>
           </div>
       </header>

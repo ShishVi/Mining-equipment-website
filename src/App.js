@@ -9,6 +9,7 @@ import Bestsellers from "./components/Вestsellers/Bestsellers";
 import About from "./components/About/About";
 import RequestForm from "./components/RequestForm/RequestForm";
 import Contacts from "./components/Contacts/Contacts";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -25,6 +26,7 @@ function App(props) {
         <About serviceItem={props.state.serviceItem}/>
         <RequestForm />
         <Contacts />
+        <Footer />
     </div>
   );
 }
